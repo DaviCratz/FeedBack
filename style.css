@@ -60,6 +60,7 @@ body {
 .botoes {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .botoes button {
@@ -72,7 +73,17 @@ body {
     border:none;
     color: var(--medium-grey);
     background-color: var(--dark-blue);
+    transition: all ease-in-out 0.3s;
+
 }
+
     .botoes button:hover {
-        
+        color: var(--white);
+        background-color: var(--orange);
+        cursor: pointer;
+    }
+
+    .botoes button:focus{
+        color: var(--white);
+        background-color: var(--light-grey);
     }
